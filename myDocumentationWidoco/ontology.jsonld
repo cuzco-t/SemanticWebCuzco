@@ -1,0 +1,1806 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Alojamiento"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#PaqueteTuristico"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Ubicacion"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#PaqueteTuristico"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Turista"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Alojamiento"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#DestinoTuristico"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Ubicacion"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Alojamiento"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Glamping"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Hotel"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#PaqueteCultural"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#PaqueteDeEntretenimiento"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#PaqueteDeportivo"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Actividad"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#AgenciaDeTurismo"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Alojamiento"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Turista"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Ubicacion"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#DescNiños"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#DescPorTemporada"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#DescTerceraEdad"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Femenino"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Masculino"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural1"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural2"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural3"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento1"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento2"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento3"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva1"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva2"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva3"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#agencia1"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#agencia2"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#agencia3"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#autobus"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#avion"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#barco"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ciudad1"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ciudad2"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ciudad3"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico1"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico10"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico11"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico12"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico13"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico14"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico15"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico2"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico3"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico4"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico5"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico6"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico7"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico8"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico9"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#glamping1"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#glamping2"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#glamping3"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#hotel1"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#hotel2"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#hotel3"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#hotel4"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#hotel5"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#hotel6"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#montaña1"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#montaña2"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#montaña3"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#paqueteTuristico1"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#paqueteTuristico2"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#paqueteTuristico3"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#paqueteTuristico4"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#paqueteTuristico5"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#playa1"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#playa2"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#playa3"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#resort1"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#resort2"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#resort3"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tren"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista1"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista10"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista11"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista12"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista13"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista14"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista15"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista16"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista17"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista2"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista3"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista4"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista5"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista6"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista7"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista8"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista9"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#PaqueteTuristico"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Ubicacion"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#PaqueteTuristico"
+    }, {
+      "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Ubicacion"
+    } ]
+  } ]
+}, {
+  "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Actividad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ActividadesCulturales",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Actividad"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ActividadesDeEntretenimiento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Actividad"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ActividadesDeportivas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Actividad"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#AgenciaDeTurismo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Alojamiento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Autobus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Transporte"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Avion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Transporte"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Ciudad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Ubicacion"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#DescNiños",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#DescNiños"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Descuento"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#DescPorTemporada",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#DescPorTemporada"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Descuento"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#DescTerceraEdad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#DescTerceraEdad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Descuento"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Descuento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#DestinoCultural",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#DestinoTuristico"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#DestinoDeEntretenimiento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#DestinoTuristico"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#DestinoDeportivo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#DestinoTuristico"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#DestinoTuristico",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Femenino",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Femenino"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Genero"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Genero",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Glamping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Alojamiento"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Hotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Alojamiento"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#HotelDeLujo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#HotelEconomico",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Lancha",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Transporte"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Masculino",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Masculino"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Genero"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Montaña",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Ubicacion"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#PaqueteCultural",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#PaqueteTuristico"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#PaqueteDeEntretenimiento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#PaqueteTuristico"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#PaqueteDeportivo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#PaqueteTuristico"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#PaqueteTuristico",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Playa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Ubicacion"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Resort",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Alojamiento"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Transporte",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Tren",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Transporte"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Turista",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#TuristaAdulto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#TuristaMayorDeEdad"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#TuristaAdultoMayor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#TuristaMayorDeEdad"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#TuristaMayorDeEdad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Turista"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#TuristaMenorDeEdad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Turista"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Ubicacion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Visitar museos y galerías de arte"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ActividadesCulturales"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Recorrer sitios históricos"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ActividadesCulturales"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Probar la comida local"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ActividadesCulturales"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Parques temáticos y atracciones"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ActividadesDeEntretenimiento"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Discotecas y vida nocturna"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ActividadesDeEntretenimiento"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Espectáculos en vivo"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ActividadesDeEntretenimiento"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Senderismo y Trekking"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ActividadesDeportivas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Deportes acuáticos"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ActividadesDeportivas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Deportes de equipo o individuales"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ActividadesDeportivas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#agencia1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "SolCaribe"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#vende" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#paqueteTuristico1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#agencia2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Travel Time Ecuador"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#vende" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#paqueteTuristico2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#agencia3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Cite Tour"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#vende" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#paqueteTuristico3"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#autobus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#capacidad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "25"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#avion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#capacidad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "130"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#barco",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#capacidad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "67"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#capacidad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Transporte"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ciudad1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneAeropuerto" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Cuenca"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneTerminal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ciudad2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneAeropuerto" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Quito"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneTerminal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ciudad3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneEstacionTren" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Alausi"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneTerminal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#compran",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#esVendidoA"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destino",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#PaqueteTuristico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#DestinoTuristico"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural1"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural2"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural3"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Museo Pumapungo"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEnCiudad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ciudad1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento1"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento3"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva2"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Playa"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEnPlaya" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#playa1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva1"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva3"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Montaña"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEnMontaña" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#montaña2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva2"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva3"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Pesca Deportiva"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEnMontaña" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#montaña1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva1"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Sendero Quishuar"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEnMontaña" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#montaña3"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva2"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva3"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "kayak"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEnPlaya" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#playa2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva3"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "parapente"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEnPlaya" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#playa3"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural1"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural2"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural3"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Mitad del Mundo"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEnCiudad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ciudad2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural2"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Monumento a la Libertad"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEnCiudad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ciudad3"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento2"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "HideOut Disco Club"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEnCiudad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ciudad1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento2"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Casino S.A."
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEnCiudad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ciudad2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento1"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento3"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Estacion Ferrocarril"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEnCiudad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ciudad3"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva3"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Cuenca Tenis y Golf Club"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEnCiudad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ciudad1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva2"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva3"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Quito Tenis y Golf Club"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEnCiudad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ciudad2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva1"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Senderismo Nariz del Diablo"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEnCiudad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ciudad3"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#edad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Turista"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#esVendidoA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#PaqueteTuristico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Turista"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#genero",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Turista"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Genero"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#glamping1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural3"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento1"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva1"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva2"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva3"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#precio" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "85.0"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "El Sendero"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEn" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#montaña1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#glamping2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural3"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva1"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva2"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva3"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#precio" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "92.0"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Llullu Llama Mountain Lodge"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEn" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#montaña2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#glamping3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural3"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento3"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva1"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#precio" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "115.0"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Secret Garden"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEn" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#montaña3"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#hotel1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural3"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento2"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#precio" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "100.0"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Four Points by Sheraton Cuenca"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEn" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ciudad1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#hotel2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento2"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#precio" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "37.0"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Selina Cuenca"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEn" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ciudad1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#hotel3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural1"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural3"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento3"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#precio" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "82.5"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Wyndham Garden"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEn" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ciudad2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#hotel4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#precio" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "22.0"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Hotel David"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEn" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ciudad2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#hotel5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural3"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#precio" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "89.0"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Hotel Europa"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEn" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ciudad3"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#hotel6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#precio" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "28.0"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Hotel Las Americas"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEn" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ciudad3"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#montaña1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "El Cajas"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneTerminal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#montaña2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Quilotoa"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneTerminal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#montaña3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Volcan Cotopaxi"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneTerminal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofrece",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofrecidoPor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Actividad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofrece"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceHospedaje",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Alojamiento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofrece"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceTransporte",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid8"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Transporte"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofrece"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofrecidoPor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#paqueteTuristico1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destino" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico1"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico2"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico3"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#esVendidoA" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista5"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#precioPaquete" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "350.0"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#vendidoEnElMes" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#paqueteTuristico2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destino" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico4"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico5"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico6"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#esVendidoA" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista1"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#precioPaquete" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "400.5"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#vendidoEnElMes" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#paqueteTuristico3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destino" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico7"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico8"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico9"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#esVendidoA" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista7"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#precioPaquete" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "275.3"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#vendidoEnElMes" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#paqueteTuristico4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destino" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico10"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico14"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico15"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#esVendidoA" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista2"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#precioPaquete" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "240.0"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#vendidoEnElMes" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#paqueteTuristico5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destino" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico11"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico12"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico13"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#esVendidoA" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista6"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#precioPaquete" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "500.0"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#vendidoEnElMes" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#paqueteTuristico6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destino" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico1"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico14"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico15"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#destinoTuristico4"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#precioPaquete" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "650.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#playa1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneAeropuerto" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Chipipe"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tienePuerto" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneTerminal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#playa2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneAeropuerto" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "San Cristobal"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tienePuerto" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#playa3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Montañita"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tienePuerto" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneTerminal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#precio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid18"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#precioPaquete",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#PaqueteTuristico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#resort1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural3"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento2"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento3"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva2"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva3"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#precio" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "105.0"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Casablanca Chipipe"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEn" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#playa1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#resort2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural3"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento2"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento3"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva2"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva3"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#precio" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "127.5"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Playa Mann"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEn" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#playa2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#resort3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ofreceActividad" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadCultural3"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento2"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeEntretenimiento3"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva2"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#actividadDeportiva3"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#precio" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "98.5"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Montañita Estates"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEn" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#playa3"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tiene",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEn"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneAeropuerto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneEstacion"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneDesc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Turista"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneDescuento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid11"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Descuento"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneEstacion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Ubicacion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneEstacionTren",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneEstacion"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneFecha",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#PaqueteTuristico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid25"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tienePuerto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneEstacion"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneTerminal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneEstacion"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tren",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#capacidad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "45"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#edad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "22"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#genero" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Masculino"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Mateo"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#viajaCon" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista10"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista11"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista8"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#edad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "23"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#genero" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Femenino"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Carolina"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#edad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "30"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#genero" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Femenino"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Gabriela"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#edad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "8"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#genero" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Masculino"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Nicolas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#edad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "47"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#genero" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Femenino"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Beatriz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#edad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#genero" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Femenino"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Paola"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#edad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "26"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#genero" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Masculino"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Luis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#edad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "25"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#genero" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Masculino"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Carlos"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#edad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "24"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#genero" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Masculino"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Daniel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#edad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "24"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#genero" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Masculino"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Santiago"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#viajaCon" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista15"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista16"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista17"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#edad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "16"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#genero" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Masculino"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Sebastian"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#edad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "68"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#genero" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Masculino"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Ismael"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#edad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "45"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#genero" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Masculino"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Mauricio"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#viajaCon" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista13"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista14"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista3"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#edad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "20"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#genero" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Femenino"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Inessa"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#viajaCon" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista9"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#edad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "73"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#genero" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Femenino"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Cenaida"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#viajaCon" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista12"
+  }, {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista4"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#edad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "32"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#genero" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Masculino"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Andres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#turista9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#edad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "22"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#genero" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Masculino"
+  } ],
+  "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#tieneNombre" : [ {
+    "@value" : "Andres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid14"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Ubicacion"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEnCiudad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Ciudad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEn"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEnMontaña",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Montaña"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEn"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEnPlaya",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Playa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#ubicadoEn"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#vende",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#AgenciaDeTurismo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#PaqueteTuristico"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#vendidoPor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#vendidoEnElMes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#PaqueteTuristico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#vendidoPor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#viajaCon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Turista"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60#Turista"
+  } ]
+} ]
